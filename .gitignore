@@ -1,0 +1,64 @@
+# === Maven ===
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# Arquivo de log do Maven
+mvnw.cmd
+mvnw
+.settings/
+.classpath
+.project
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === Eclipse ===
+*.launch
+.project
+.classpath
+.settings/
+bin/
+
+# === VS Code ===
+.vscode/
+
+# === Sistema Operacional ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+
+# === Logs ===
+*.log
+logs/
+*.tmp
+
+# === Banco em memória / arquivos temporários ===
+*.h2.db
+*.mv.db
+*.db
+*.pid
+
+# === Arquivos de configuração locais ===
+application-local.properties
+application-dev.properties
+.env
+.env.*
+
+# === Teste / cobertura ===
+jacoco.exec
+target/site/jacoco/
+coverage/
+*.exec
+
+# === Spring Boot Devtools ===
+.spring-boot-devtools.properties
+
+# === Arquivos do sistema Linux/macOS ===
+*.orig
+*~
